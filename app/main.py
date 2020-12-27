@@ -1,9 +1,14 @@
 from typing import Optional
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Response, status
 
 app = FastAPI()
 
+
+@app.post("/", status_code=status.HTTP_201_CREATED)
+async def write_json(response: Response):
+    response.headers["Location"] = "TODO"
+    return "Created"
 
 @app.get("/")
 def read_root():
