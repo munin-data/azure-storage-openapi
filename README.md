@@ -1,4 +1,4 @@
-This repo provides an OpenAPI-compliant endpoint at TODO capable of persisting TODO to Azure Storage.
+This repo provides an OpenAPI-compliant endpoint capable of persisting TODO to Azure Storage.
 
 # Running on the local host
 
@@ -17,7 +17,7 @@ Run the API using the Uvicorn:
 uvicorn app.main:app --reload
 ```
 
-Navigate to the displayed address where Guvicorn is running, e.g. http://127.0.0.1:8000 .
+Navigate to the displayed address where Guvicorn is running, e.g. http://127.0.0.1:8000.
 
 # Docker container
 
@@ -44,10 +44,11 @@ Run a Docker container by using the command:
 docker run --detach --rm --publish 80:80 munindata/azure-storage-openapi
 ```
 
-You can then connect to the running web API at http://127.0.0.1 .
+You can then connect to the running web API at http://127.0.0.1.
 
 ---
 ***NOTE:*** The application's endpoint may also be available at other network locations such as http://172.17.0.2 or http://192.168.99.100 depending on your Docker network configuration. Use `docker network ls` and `docker network inspect` to find other likely candidate addresses.
+
 ---
 
 # Viewing API documentation and schema
