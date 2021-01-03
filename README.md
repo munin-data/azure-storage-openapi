@@ -2,11 +2,10 @@ This repo provides an OpenAPI-compliant endpoint capable of persisting TODO to A
 
 # Running on the local host
 
-## Install dependencies
+## Install newest versions of dependencies
 
 ```
-pip install --user uvicorn
-pip install --user fastapi
+pip install --upgrade --user python-multipart uvicorn fastapi
 ```
 
 ## Running on the local host
@@ -89,6 +88,9 @@ TODO
 - Support other archs than amd64 in Docker image
   - Requires FROM to be set to a Python base image rather than FastAPI
 - Audit Docker image supply chain
+- Consider [allowing multiple files to be uploaded](https://fastapi.tiangolo.com/tutorial/request-files/#multiple-file-uploads) to root POST path operation
+- Consider allowing application/octet-stream content type directly in request as opposed to as individual part(s) of the multipart/form-data
+  - Alternative: consider application/x-www-form-urlencoded
 
 # Relevant Links
 
