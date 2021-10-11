@@ -234,7 +234,7 @@ where `xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` is the object ID of the user to be
 - [Microsoft identity platform documentation: Microsoft identity platform and OAuth 2.0 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
 - [Auth0 Docs: Authorization Code Flow with Proof Key for Code Exchange (PKCE)](https://auth0.com/docs/flows/authorization-code-flow-with-proof-key-for-code-exchange-pkce)
 - [Auth0 Docs: Call Your API Using the Authorization Code Flow with PKCE](https://auth0.com/docs/flows/call-your-api-using-the-authorization-code-flow-with-pkce)
-- [NHS Digital: The Authorization Code Flow in Detail](https://rograce.github.io/openid-connect-documentation/explore_auth_code_flow)
+- [NHS Digital: The Authorization Code Flow in Detail](https://web.archive.org/web/20200909185631/https://rograce.github.io/openid-connect-documentation/explore_auth_code_flow)
 - [Okta: Implement the OAuth 2.0 Authorization Code with PKCE Flow](https://developer.okta.com/blog/2019/08/22/okta-authjs-pkce)
 - [RFC7636: Proof Key for Code Exchange by OAuth Public Clients](https://tools.ietf.org/html/rfc7636)
 - [RFC8628: OAuth 2.0 Device Authorization Grant](https://tools.ietf.org/html/rfc8628)
